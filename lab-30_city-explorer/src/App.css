@@ -1,33 +1,141 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Bitter|Crimson+Text|Pragati+Narrow|Special+Elite');
+
+
+body {
+  font-family: 'Pragati Narrow', sans-serif;
+  background-color: lavenderblush;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+header, form label {
+  font-family: 'Bitter', serif;
+  padding: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-size: 10vw;
+  color: rebeccapurple;
+  font-family: 'Special Elite', cursive;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+h3 {
+  font-family: 'Pragati Narrow', sans-serif;
+}
+
+header main{
+  font-size: 3vw;
+}
+label{
+
+  font-size: 2em ;
+  font-family: 'Crimson Text', serif;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3em;
+}
+
+button {
+  padding: 5px 15px;
+  background-color: rebeccapurple;
+  border: 1px solid #4484CE;
+  font-palette: dark;
+  color: lavenderblush;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  font-family: 'Special Elite', cursive;
+  font-size: 18px;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  text-indent: 5px;
+}
+
+li {
+  border-bottom: 2px solid #555;
+  font-family: 'Pragati Narrow', sans-serif;
+}
+
+section * {
+  padding: 0 2px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* Style the yelp images */
+div section:nth-child(2) img {
+  height: 75px;
+  padding-bottom: 3px;
+}
+
+/* Style the movie images */
+div section:nth-child(4) img {
+  height: 150px;
+}
+
+.column-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: slategrey;
+  border-size: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+.column-container section {
+  display: inline-block;
+  width: 100%;
+  border-style: groove;
+  margin: 5px;
+  background-color: lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.query-placeholder, form, header {
+  text-align: center;
+  font-family: 'Pragati Narrow', sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+#input-search {
+  padding: 5px;
+  border: 1px solid #4484CE;
+}
+
+#map {
+  margin-top: 10px;
+  border: 2px solid #4484CE;
+}
+.inputBox {
+  width: 300px;
+  height: 25px;
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: 'Pragati Narrow', sans-serif;
+  font-size: 18px;
+}
+
+.results {
+
+  font-family: 'Pragati Narrow', sans-serif;
+}
+
+.container {
+  background-color: lightgray;
 }

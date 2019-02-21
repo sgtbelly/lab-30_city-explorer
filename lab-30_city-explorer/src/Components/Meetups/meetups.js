@@ -1,15 +1,17 @@
 import React from 'react';
 
-const Weather = props => {
+const Meetups = props => {
     return (
         <section className="container">
-            <h3>Here are your local Weather reports</h3>
+            <h3>Here are your results for your local Meetups</h3>
             <ul className="results">
                 {props.data &&
                 props.data.map((item, key) => {
                     return (
                         <li key={key}>
-                            The forecast for {item.time} is {item.forecast}
+                            <a href="{ item.link }">{item.name}</a>
+                            <p className="results">Hosted by: {item.host}</p>
+                            <p className="results">Created on: {item.creation_date}</p>
                         </li>
                     );
                 })}
@@ -18,4 +20,4 @@ const Weather = props => {
     );
 };
 
-export default Weather;
+export default Meetups;

@@ -10,6 +10,7 @@ I had help from the following: Matthew McQuain, Hai Le, Ashley Breunich, ED Punz
 * [AWS](http://lab30-cityexplorer.s3-website-us-west-2.amazonaws.com/)
 
 ## UML
+![UML](Assets/UML.jpg "Logo Title Text 1")
 
 ## Available Scripts
 

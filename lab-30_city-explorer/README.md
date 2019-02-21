@@ -1,4 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# LAB 30 CITY EXPLORER
+
+## About
+Author: James M Denton
+I had help from the following: Matthew McQuain, Hai Le, Ashley Breunich, ED Punzio
+
+## Links and Resources
+* [Repo](https://github.com/sgtbelly/lab-30_city-explorer)
+* [AWS](http://lab30-cityexplorer.s3-website-us-west-2.amazonaws.com/)
+
+## UML
 
 ## Available Scripts
 
